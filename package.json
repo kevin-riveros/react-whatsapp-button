@@ -42,5 +42,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/kevin-riveros/react-whatsapp-button"
-  }
+  },
+  "homepage": "https://github.com/kevin-riveros/react-whatsapp-button#readme",
+  "keywords": [
+    "react",
+    "ui",
+    "button"
+  ]
 }

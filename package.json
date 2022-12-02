@@ -1,14 +1,15 @@
 {
   "name": "react-whatsapp-button",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple react component to show a Whatsapp floating button.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "build-lib": "rollup -c"
+    "build-lib": "rollup -c",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public",
+    "serve-storybook": "serve storybook-static"
   },
   "author": "Kevin Riveros",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "@babel/core": "^7.20.5",
     "@babel/preset-react": "^7.18.6",
     "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^23.0.3",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@storybook/addon-actions": "^6.5.13",
     "@storybook/addon-essentials": "^6.5.13",
@@ -27,6 +29,7 @@
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.3.0",
     "postcss": "^8.4.19",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup": "^3.5.1",
@@ -43,7 +46,7 @@
     "type": "git",
     "url": "https://github.com/kevin-riveros/react-whatsapp-button"
   },
-  "homepage": "https://github.com/kevin-riveros/react-whatsapp-button#readme",
+  "homepage": "https://react-whatsapp-button.vercel.app/",
   "keywords": [
     "react",
     "ui",

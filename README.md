@@ -2,7 +2,7 @@
 
 A simple react component to show a Whatsapp floating button.
 
-![With a custom style](http://url/to/img.png)
+![With a custom style](https://raw.githubusercontent.com/kevin-riveros/react-whatsapp-button/main/public/assets/whatsapp-btn-default.png)
 
 **Content**
 
@@ -56,7 +56,7 @@ export default App;
 ## Examples 🖍
 ### With an animation
 
-![With an animation](http://url/to/img.png)
+![With an animation](https://raw.githubusercontent.com/kevin-riveros/react-whatsapp-button/main/public/assets/whatsapp-btn-animated.gif)
 
 ```javascript
 
@@ -81,7 +81,7 @@ export default App;
 
 ### With a custom style
 
-![With a custom style](http://url/to/img.png)
+![With a custom style](https://raw.githubusercontent.com/kevin-riveros/react-whatsapp-button/main/public/assets/whatsapp-btn-custom-style.png)
 
 
 ```javascript

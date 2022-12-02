@@ -1,6 +1,6 @@
 {
   "name": "react-whatsapp-button",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple react component to show a Whatsapp floating button.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

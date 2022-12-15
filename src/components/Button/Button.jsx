@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./Button.css";
 
-export const Button = ({
+export const ReactWhatsappButton = ({
   phoneNumber,
   countryCode,
   message,
@@ -49,7 +49,7 @@ export const Button = ({
   );
 };
 
-Button.propTypes = {
+ReactWhatsappButton.propTypes = {
   phoneNumber: PropTypes.string.isRequired,
   countryCode: PropTypes.string.isRequired,
   message: PropTypes.string,

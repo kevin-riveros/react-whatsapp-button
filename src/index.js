@@ -1,1 +1,2 @@
-export * from "./components/Button";
+import { ReactWhatsappButton } from "./components/Button";
+export default ReactWhatsappButton;

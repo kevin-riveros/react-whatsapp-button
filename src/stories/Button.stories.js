@@ -3,18 +3,18 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
 
-import { Button } from "../components/Button";
+import { ReactWhatsappButton } from "../components/Button";
 
 export default {
   title: "Whatsapp Button",
-  component: Button,
+  component: ReactWhatsappButton,
   args: {
     countryCode: "51",
     phoneNumber: "987654321",
   },
 };
 
-const Template = (args) => <Button {...args} />;
+const Template = (args) => <ReactWhatsappButton {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
